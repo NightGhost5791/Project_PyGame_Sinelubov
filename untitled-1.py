@@ -189,6 +189,7 @@ level_map = load_level('map.txt')
 player, max_x, max_y = generate_level(level_map)
 running = True
 camera.update(player)
+
 pygame.mixer.music.load('data\dungeon_music.mp3')
 pygame.mixer.music.play(-1)
 
